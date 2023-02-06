@@ -1,0 +1,13 @@
+###Tabela users
+CREATE TABLE users (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(64) NOT NULL,
+    status int(5) DEFAULT 1,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+###Inserir valores tabela users
+INSERT INTO users (username, password,status)
+VALUES ('Gui','minhasenha',2);
+
