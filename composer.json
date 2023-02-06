@@ -1,0 +1,9 @@
+{
+    "name": "guilherme/login",
+    "autoload": {
+        "psr-4": {
+            "Guilherme\\Login\\": "src/"
+        }
+    },
+    "require": {}
+}
